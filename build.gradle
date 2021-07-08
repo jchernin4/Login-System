@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation group: 'org.mongodb', name: 'mongo-java-driver', version: '3.12.8'
     implementation group: 'io.javalin', name: 'javalin', version: '4.0.0.ALPHA3'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.0-alpha2'
 }
 
 test {
