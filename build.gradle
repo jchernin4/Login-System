@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.mongodb', name: 'mongo-java-driver', version: '3.12.8'
+    implementation group: 'io.javalin', name: 'javalin', version: '4.0.0.ALPHA3'
+}
+
+test {
+    useJUnitPlatform()
+}
